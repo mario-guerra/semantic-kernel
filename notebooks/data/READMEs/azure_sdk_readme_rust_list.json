@@ -1,0 +1,106 @@
+[
+    {
+        "README_text": "# azure_core\n\nCore types and traits for the Rust Azure SDK.\n\nThis crate is part of the unofficial Azure SDK effort in Rust. For more\ninformation on the project and an overview of other crates, please refer to\n[our GitHub repository](https://github.com/azure/azure-sdk-for-rust).\n\nIt is a library that provides cross-cutting services to other client\nlibraries.  Please see the [general\nguidelines](https://azure.github.io/azure-sdk/general_azurecore.html).\n\nLicense: MIT\n",
+        "repo_name": "core",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/core",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_data_cosmos\n\n## The Cosmos DB crate.\n\n`azure-data-cosmos` offers functionality needed to interact with Cosmos DB from Rust. As an abstraction over the [Cosmos DB\nRest API](https://docs.microsoft.com/rest/api/cosmos-db/), anything that is possible through that Rest API\nshould also be possible with this crate.\n\n### Examples\n\n```rust\n// Using the prelude module of the Cosmos crate makes easier to use the Rust Azure SDK for Cosmos DB.\nuse azure_data_cosmos::prelude::*;\nuse azure_core::Context;\nuse serde::{Deserialize, Serialize};\n\n// This is the stuct we want to use in our sample.\n// Make sure to have a collection with partition key \"a_number\" for this example to\n// work (you can create with this SDK too, check the examples folder for that task).\n#[derive(Serialize, Deserialize, Debug)]\nstruct MySampleStruct {\n    id: String,\n    string: String,\n    number: u64,\n}\n\nimpl azure_data_cosmos::CosmosEntity for MySampleStruct {\n    type Entity = u64;\n\n    fn partition_key(&self) -> Self::Entity {\n        self.number\n    }\n}\n\n#[tokio::main]\nasync fn main() -> azure_core::Result<()> {\n    // Let's get Cosmos primary key and account name from env variables.\n    let primary_key =\n        std::env::var(\"COSMOS_PRIMARY_KEY\").expect(\"Set env variable COSMOS_PRIMARY_KEY first!\");\n    let account = std::env::var(\"COSMOS_ACCOUNT\").expect(\"Set env variable COSMOS_ACCOUNT first!\");\n\n    let database_name = std::env::args()\n        .nth(1)\n        .expect(\"please specify the database name as the first command line parameter\");\n    let collection_name = std::env::args()\n        .nth(2)\n        .expect(\"please specify the collection name as the second command line parameter\");\n\n    // First, create an authorization token. There are two types of tokens: primary and resource constrained.\n    // Please check the Azure documentation or the examples folder on how to create and use token-based permissions.\n    let authorization_token = AuthorizationToken::primary_from_base64(&primary_key)?;\n\n    // Next we will create a Cosmos client.\n    let client = CosmosClient::new(account, authorization_token);\n\n    // We know the database so we can obtain a database client.\n    let database = client.database_client(database_name);\n    // We know the collection so we can obtain a collection client.\n    let collection = database.collection_client(collection_name);\n\n    // Insert 10 documents\n    println!(\"Inserting 10 documents...\");\n    for i in 0..10 {\n        // define the document.\n        let document_to_insert = MySampleStruct {\n            id: format!(\"unique_id{}\", i),\n            string: \"Something here\".to_owned(),\n            number: i * 100, // this is the partition key\n        };\n\n        // insert it\n        collection\n            .create_document(document_to_insert)\n            .is_upsert(true)\n            .await?;\n    }\n\n    Ok(())\n}\n```\n\nLicense: MIT\n",
+        "repo_name": "data_cosmos",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/data_cosmos",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_data_tables\n\nThis crate is from the [Azure SDK for Rust](https://github.com/azure/azure-sdk-for-rust). It supports [Azure Table storage](https://docs.microsoft.com/azure/storage/tables/table-storage-overview).\n\n```rust\nuse azure_core::StatusCode;\nuse azure_data_tables::{operations::InsertEntityResponse, prelude::*};\nuse azure_storage::prelude::*;\nuse futures::stream::StreamExt;\nuse serde::{Deserialize, Serialize};\n\n#[derive(Debug, Clone, Serialize, Deserialize)]\nstruct MyEntity {\n    #[serde(rename = \"PartitionKey\")]\n    pub city: String,\n    pub name: String,\n    #[serde(rename = \"RowKey\")]\n    pub surname: String,\n}\n\n#[tokio::main]\nasync fn main() -> azure_core::Result<()> {\n    env_logger::Builder::from_env(env_logger::Env::default().default_filter_or(\"info\"));\n\n    // First we retrieve the account name and access key from environment variables.\n    let account =\n        std::env::var(\"STORAGE_ACCOUNT\").expect(\"Set env variable STORAGE_ACCOUNT first!\");\n    let access_key =\n        std::env::var(\"STORAGE_ACCESS_KEY\").expect(\"Set env variable STORAGE_ACCESS_KEY first!\");\n    let table_name = std::env::var(\"STORAGE_TABLE_NAME\").expect(\"Set env variable STORAGE_TABLE_NAME first!\");\n\n    let storage_credentials = StorageCredentials::Key(account.clone(), access_key);\n    let table_service = TableServiceClient::new(account, storage_credentials);\n\n    let table_client = table_service.table_client(table_name);\n    table_client.create().await?;\n\n    let entity = MyEntity {\n        city: \"Milan\".to_owned(),\n        name: \"Francesco\".to_owned(),\n        surname: \"A\".to_owned(),\n    };\n\n    let _: InsertEntityResponse<MyEntity> = table_client.insert(&entity)?.await?;\n\n    // Get a client that refers to the above entity\n    let entity_client = table_client.partition_key_client(&entity.city).entity_client(&entity.surname)?;\n\n    // Get an entity from the table\n    let response = entity_client.get().await?;\n    let mut entity: MyEntity = response.entity;\n\n    // update the entity in the table\n    entity.name = \"Ryan\".to_owned();\n    entity_client.update(&entity, response.etag.into())?.await?;\n    entity_client.delete().await?;\n\n    /// delete the client now that we're done\n    table_client.delete().await?;\n    Ok(())\n}\n\n```\n\n\nLicense: MIT\n",
+        "repo_name": "data_tables",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/data_tables",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_identity\n\nAzure Identity crate for the unofficial Microsoft Azure SDK for Rust. This crate is part of a collection of crates: for more information please refer to [https://github.com/azure/azure-sdk-for-rust](https://github.com/azure/azure-sdk-for-rust).\nThis crate provides mechanisms for several ways to authenticate against Azure\n\nFor example, to authenticate using the recommended `DefaultAzureCredential`, you can do the following:\n\n```rust\nuse azure_core::auth::TokenCredential;\nuse azure_identity::{DefaultAzureCredential};\nuse url::Url;\n\nuse std::env;\nuse std::error::Error;\n\n#[tokio::main]\nasync fn main() -> Result<(), Box<dyn Error>> {\n    let credential = DefaultAzureCredential::default();\n    let response = credential\n        .get_token(\"https://management.azure.com\")\n        .await?;\n\n    let subscription_id = env::var(\"AZURE_SUBSCRIPTION_ID\")?;\n    let url = Url::parse(&format!(\n        \"https://management.azure.com/subscriptions/{}/providers/Microsoft.Storage/storageAccounts?api-version=2019-06-01\",\n        subscription_id))?;\n    let response = reqwest::Client::new()\n        .get(url)\n        .header(\"Authorization\", format!(\"Bearer {}\", response.token.secret()))\n        .send()\n        .await?\n        .text()\n        .await?;\n\n    println!(\"{:?}\", response);\n    Ok(())\n}\n```\n\nThe supported authentication flows are:\n* [Authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow).\n* [Client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).\n* [Device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code).\n\nThis crate also includes utilities for handling refresh tokens and accessing token credentials from many different sources.\n\nLicense: MIT\n",
+        "repo_name": "identity",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/identity",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# Azure SDK for Rust - Azure Device Update crate\n\n\n\n## Usage\n\nTo set this crate as a dependency, add this to your Cargo.toml\n\n```toml\n[dependencies]\nazure_iot_deviceupdate = { version = \"0.12.0\", git = \"https://github.com/Azure/azure-sdk-for-rust\" }\n```\n",
+        "repo_name": "iot_deviceupdate",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/iot_deviceupdate",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_iot_hub\n\nAzure `iot_hub` crate for the unofficial Microsoft Azure SDK for Rust. This crate is part of a collection of crates: for more information please refer to [https://github.com/azure/azure-sdk-for-rust](https://github.com/azure/azure-sdk-for-rust).\n\nLicense: MIT\n",
+        "repo_name": "iot_hub",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/iot_hub",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_messaging_eventgrid\n\nAzure Messaging Event Grid crate for the unofficial Microsoft Azure SDK for Rust. This crate is part of a collection of crates: for more information please refer to [https://github.com/azure/azure-sdk-for-rust](https://github.com/azure/azure-sdk-for-rust).\n\nLicense: MIT\n",
+        "repo_name": "messaging_eventgrid",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/messaging_eventgrid",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_messaging_servicebus\n\nAzure Service Bus crate for the unofficial Microsoft Azure SDK for Rust.\nThis crate is part of a collection of crates: for more information please refer to [https://github.com/azure/azure-sdk-for-rust](https://github.com/azure/azure-sdk-for-rust).\n\n## Example\n```no_run,rust\nuse azure_messaging_servicebus::prelude::*;\n\n#[tokio::main]\nasync fn main() -> azure_core::Result<()> {\n    let service_bus_namespace = std::env::var(\"AZURE_SERVICE_BUS_NAMESPACE\").expect(\"missing AZURE_SERVICE_BUS_NAMESPACE\");\n    let queue_name = std::env::var(\"AZURE_QUEUE_NAME\").expect(\"missing AZURE_QUEUE_NAME\");\n    let policy_name = std::env::var(\"AZURE_POLICY_NAME\").expect(\"missing AZURE_POLICY_NAME\");\n    let policy_key = std::env::var(\"AZURE_POLICY_KEY\").expect(\"missing AZURE_POLICY_KEY\");\n\n    let http_client = azure_core::new_http_client();\n    let mut client = QueueClient::new(\n        http_client,\n        service_bus_namespace,\n        queue_name,\n        policy_name,\n        policy_key,\n    )?;\n\n    client.send_message(\"hello world\").await?;\n\n    let received_message = client.receive_and_delete_message().await?;\n    println!(\"Received Message: {}\", received_message);\n\n    Ok(())\n}\n```\n\nLicense: MIT\n",
+        "repo_name": "messaging_servicebus",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/messaging_servicebus",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_security_keyvault\n\nAzure Security Key Vault\n\nThis crate is part of the unofficial Azure SDK effort in Rust. For more\ninformation on the project, and an overview of other crates, please refer to\n[our GitHub repository](https://github.com/azure/azure-sdk-for-rust).\n\nLicense: MIT\n",
+        "repo_name": "security_keyvault",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/security_keyvault",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_storage\n\nStorage types and traits for the Rust Azure SDK.\n\nThis crate is part of the unofficial Azure SDK effort in Rust. For more\ninformation on the project, and an overview of other crates, please refer to\n[our GitHub repository](https://github.com/azure/azure-sdk-for-rust).\n\nPlease use these crates for additional functionality:\n\n- [`azure_data_tables`](https://crates.io/crates/azure_data_tables)\n- [`azure_storage_blobs`](https://crates.io/crates/azure_storage_blobs)\n- [`azure_storage_datalake`](https://crates.io/crates/azure_storage_datalake)\n- [`azure_storage_queues`](https://crates.io/crates/azure_storage_queues)\n\nLicense: MIT\n",
+        "repo_name": "storage",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/storage",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_storage_blobs\n\nThis crate is from the [Azure SDK for Rust](https://github.com/azure/azure-sdk-for-rust).\nIt supports [Azure Blob Storage](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-overview).\n\n## Example\n```rust\n\nuse azure_core::error::{ErrorKind, ResultExt};\nuse azure_storage::prelude::*;\nuse azure_storage_blobs::prelude::*;\nuse futures::stream::StreamExt;\n\n#[tokio::main]\nasync fn main() -> azure_core::Result<()> {\n    let file_name = \"azure_sdk_for_rust_stream_test.txt\";\n\n    // First we retrieve the account name and access key from environment variables.\n    let account = std::env::var(\"STORAGE_ACCOUNT\").expect(\"missing STORAGE_ACCOUNT\");\n    let access_key = std::env::var(\"STORAGE_ACCESS_KEY\").expect(\"missing STORAGE_ACCOUNT_KEY\");\n    let container = std::env::var(\"STORAGE_CONTAINER\").expect(\"missing STORAGE_CONTAINER\");\n    let blob_name = std::env::var(\"STORAGE_BLOB_NAME\").expect(\"missing STORAGE_BLOB_NAME\");\n\n    let storage_credentials = StorageCredentials::Key(account.clone(), access_key);\n    let blob_client = ClientBuilder::new(account, storage_credentials).blob_client(&container, blob_name);\n\n    blob_client.put_block_blob(\"hello world\").content_type(\"text/plain\").await?;\n\n    let mut result: Vec<u8> = vec![];\n\n    // The stream is composed of individual calls to the get blob endpoint\n    let mut stream = blob_client.get().into_stream();\n    while let Some(value) = stream.next().await {\n        let mut body = value?.data;\n        // For each response, we stream the body instead of collecting it all\n        // into one large allocation.\n        while let Some(value) = body.next().await {\n            let value = value?;\n            result.extend(&value);\n        }\n    }\n\n    println!(\"result: {:?}\", result);\n\n    Ok(())\n}\n\n```\n\nLicense: MIT\n",
+        "repo_name": "storage_blobs",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/storage_blobs",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_storage_datalake\n\n## The Storage Datalake crate\n\n`azure-storage-datalake` offers functionality needed to interact with an ADLS Gen2 storage account from Rust.\nAs an abstraction over the [Azure Data Lake Store REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/data-lake-storage-gen2), anything that is possible through that Rest API\nshould also be possible with this crate.\n\nLicense: MIT\n",
+        "repo_name": "storage_datalake",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/storage_datalake",
+        "language": [
+            "Rust"
+        ]
+    },
+    {
+        "README_text": "# azure_storage_queues\n\n## The Azure Storage Queue crate\n\nThis crate is from the [Azure SDK for Rust](https://github.com/azure/azure-sdk-for-rust).\nIt supports [Azure Queue Storage](https://docs.microsoft.com/azure/storage/queues/storage-queues-introduction).\n\n## Example\n```rust\nuse azure_storage::prelude::*;\nuse azure_storage_queues::prelude::*;\n\n#[tokio::main]\nasync fn main() -> azure_core::Result<()> {\n    let account = std::env::var(\"STORAGE_ACCOUNT\").expect(\"missing STORAGE_ACCOUNT\");\n    let access_key = std::env::var(\"STORAGE_ACCESS_KEY\").expect(\"missing STORAGE_ACCESS_KEY\");\n    let queue_name = std::env::var(\"STORAGE_QUEUE_NAME\").expect(\"missing STORAGE_QUEUE_NAME\");\n\n    let storage_credentials = StorageCredentials::Key(account.clone(), access_key);\n    let queue_service = QueueServiceClient::new(account, storage_credentials);\n    let queue = queue_service.queue_client(queue_name);\n\n    // process messages until there are no more\n    loop {\n        let response = queue.get_messages().await?;\n        if response.messages.is_empty() {\n            break;\n        }\n        for message in response.messages {\n            println!(\"processing message {:?}\", message);\n            queue.pop_receipt_client(message).delete().await?;\n        }\n    }\n\n    Ok(())\n}\n\n```\n\n\nLicense: MIT\n",
+        "repo_name": "storage_queues",
+        "link_to_repo": "https://github.com/Azure/azure-sdk-for-rust/blob/main/sdk/storage_queues",
+        "language": [
+            "Rust"
+        ]
+    }
+]
