@@ -4,7 +4,6 @@
         "repo_name": "advisor/Azure.ResourceManager.Advisor",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/advisor/Azure.ResourceManager.Advisor",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -13,7 +12,6 @@
         "repo_name": "agrifood/Azure.ResourceManager.AgFoodPlatform",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/agrifood/Azure.ResourceManager.AgFoodPlatform",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -22,7 +20,6 @@
         "repo_name": "agrifood/Azure.Verticals.AgriFood.Farming",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/agrifood/Azure.Verticals.AgriFood.Farming",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -31,7 +28,6 @@
         "repo_name": "alertsmanagement/Azure.ResourceManager.AlertsManagement",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/alertsmanagement/Azure.ResourceManager.AlertsManagement",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -40,7 +36,6 @@
         "repo_name": "analysisservices/Azure.ResourceManager.Analysis",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/analysisservices/Azure.ResourceManager.Analysis",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -49,7 +44,6 @@
         "repo_name": "anomalydetector/Azure.AI.AnomalyDetector",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/anomalydetector/Azure.AI.AnomalyDetector",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -58,7 +52,6 @@
         "repo_name": "apimanagement/Azure.ResourceManager.ApiManagement",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/apimanagement/Azure.ResourceManager.ApiManagement",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -67,7 +60,6 @@
         "repo_name": "appcomplianceautomation/Azure.ResourceManager.AppComplianceAutomation",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/appcomplianceautomation/Azure.ResourceManager.AppComplianceAutomation",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -76,7 +68,6 @@
         "repo_name": "appconfiguration/Azure.Data.AppConfiguration",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/appconfiguration/Azure.Data.AppConfiguration",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -85,7 +76,6 @@
         "repo_name": "appconfiguration/Azure.ResourceManager.AppConfiguration",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -94,7 +84,6 @@
         "repo_name": "applicationinsights/Azure.ResourceManager.ApplicationInsights",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/applicationinsights/Azure.ResourceManager.ApplicationInsights",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -103,7 +92,6 @@
         "repo_name": "appplatform/Azure.ResourceManager.AppPlatform",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/appplatform/Azure.ResourceManager.AppPlatform",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -112,7 +100,6 @@
         "repo_name": "arc-scvmm/Azure.ResourceManager.ArcScVmm",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/arc-scvmm/Azure.ResourceManager.ArcScVmm",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -121,7 +108,6 @@
         "repo_name": "attestation/Azure.ResourceManager.Attestation",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/attestation/Azure.ResourceManager.Attestation",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -130,7 +116,6 @@
         "repo_name": "attestation/Azure.Security.Attestation",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/attestation/Azure.Security.Attestation",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -139,7 +124,6 @@
         "repo_name": "authorization/Azure.ResourceManager.Authorization",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/authorization/Azure.ResourceManager.Authorization",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -148,7 +132,6 @@
         "repo_name": "automanage/Azure.ResourceManager.Automanage",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/automanage/Azure.ResourceManager.Automanage",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -157,7 +140,6 @@
         "repo_name": "automation/Azure.ResourceManager.Automation",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/automation/Azure.ResourceManager.Automation",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -166,7 +148,6 @@
         "repo_name": "avs/Azure.ResourceManager.Avs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/avs/Azure.ResourceManager.Avs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -175,7 +156,6 @@
         "repo_name": "azurestackhci/Azure.ResourceManager.Hci",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/azurestackhci/Azure.ResourceManager.Hci",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -184,7 +164,6 @@
         "repo_name": "batch/Azure.ResourceManager.Batch",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/batch/Azure.ResourceManager.Batch",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -193,7 +172,6 @@
         "repo_name": "batch/Microsoft.Azure.Batch.Conventions.Files",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/batch/Microsoft.Azure.Batch.Conventions.Files",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -202,7 +180,6 @@
         "repo_name": "batch/Microsoft.Azure.Batch",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/batch/Microsoft.Azure.Batch",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -211,7 +188,6 @@
         "repo_name": "batch/Microsoft.Azure.Management.Batch",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/batch/Microsoft.Azure.Management.Batch",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -220,7 +196,6 @@
         "repo_name": "billing/Azure.ResourceManager.Billing",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/billing/Azure.ResourceManager.Billing",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -229,7 +204,6 @@
         "repo_name": "billingbenefits/Azure.ResourceManager.BillingBenefits",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/billingbenefits/Azure.ResourceManager.BillingBenefits",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -238,7 +212,6 @@
         "repo_name": "blueprint/Azure.ResourceManager.Blueprint",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/blueprint/Azure.ResourceManager.Blueprint",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -247,7 +220,6 @@
         "repo_name": "botservice/Azure.ResourceManager.BotService",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/botservice/Azure.ResourceManager.BotService",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -256,7 +228,6 @@
         "repo_name": "cdn/Azure.ResourceManager.Cdn",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/cdn/Azure.ResourceManager.Cdn",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -265,7 +236,6 @@
         "repo_name": "changeanalysis/Azure.ResourceManager.ChangeAnalysis",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/changeanalysis/Azure.ResourceManager.ChangeAnalysis",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -274,7 +244,6 @@
         "repo_name": "chaos/Azure.ResourceManager.Chaos",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/chaos/Azure.ResourceManager.Chaos",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -283,7 +252,6 @@
         "repo_name": "cognitivelanguage/Azure.AI.Language.Conversations",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -292,7 +260,6 @@
         "repo_name": "cognitivelanguage/Azure.AI.Language.QuestionAnswering",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/cognitivelanguage/Azure.AI.Language.QuestionAnswering",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -301,7 +268,6 @@
         "repo_name": "cognitiveservices/Azure.ResourceManager.CognitiveServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/cognitiveservices/Azure.ResourceManager.CognitiveServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -310,7 +276,6 @@
         "repo_name": "cognitiveservices/FormRecognizer",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/cognitiveservices/FormRecognizer",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -319,7 +284,6 @@
         "repo_name": "communication/Azure.Communication.AlphaIds",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.AlphaIds",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -328,7 +292,6 @@
         "repo_name": "communication/Azure.Communication.CallAutomation",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.CallAutomation",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -337,7 +300,6 @@
         "repo_name": "communication/Azure.Communication.CallingServer",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.CallingServer",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -346,7 +308,6 @@
         "repo_name": "communication/Azure.Communication.Chat",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Chat",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -355,7 +316,6 @@
         "repo_name": "communication/Azure.Communication.Common",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Common",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -364,7 +324,6 @@
         "repo_name": "communication/Azure.Communication.Email",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Email",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -373,7 +332,6 @@
         "repo_name": "communication/Azure.Communication.Identity",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Identity",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -382,7 +340,6 @@
         "repo_name": "communication/Azure.Communication.JobRouter",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.JobRouter",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -391,7 +348,6 @@
         "repo_name": "communication/Azure.Communication.MediaComposition",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.MediaComposition",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -400,7 +356,6 @@
         "repo_name": "communication/Azure.Communication.NetworkTraversal",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.NetworkTraversal",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -409,7 +364,6 @@
         "repo_name": "communication/Azure.Communication.PhoneNumbers",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.PhoneNumbers",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -418,7 +372,6 @@
         "repo_name": "communication/Azure.Communication.Rooms",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Rooms",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -427,7 +380,6 @@
         "repo_name": "communication/Azure.Communication.ShortCodes",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.ShortCodes",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -436,7 +388,6 @@
         "repo_name": "communication/Azure.Communication.Sms",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Sms",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -445,7 +396,6 @@
         "repo_name": "communication/Azure.ResourceManager.Communication",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.ResourceManager.Communication",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -454,7 +404,6 @@
         "repo_name": "compute/Azure.ResourceManager.Compute",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/compute/Azure.ResourceManager.Compute",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -463,7 +412,6 @@
         "repo_name": "confidentialledger/Azure.ResourceManager.ConfidentialLedger",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/confidentialledger/Azure.ResourceManager.ConfidentialLedger",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -472,7 +420,6 @@
         "repo_name": "confidentialledger/Azure.Security.ConfidentialLedger",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/confidentialledger/Azure.Security.ConfidentialLedger",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -481,7 +428,6 @@
         "repo_name": "confluent/Azure.ResourceManager.Confluent",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/confluent/Azure.ResourceManager.Confluent",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -490,7 +436,6 @@
         "repo_name": "connectedvmwarevsphere/Azure.ResourceManager.ConnectedVMwarevSphere",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/connectedvmwarevsphere/Azure.ResourceManager.ConnectedVMwarevSphere",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -499,7 +444,6 @@
         "repo_name": "consumption/Azure.ResourceManager.Consumption",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/consumption/Azure.ResourceManager.Consumption",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -508,7 +452,6 @@
         "repo_name": "containerapps/Azure.ResourceManager.AppContainers",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/containerapps/Azure.ResourceManager.AppContainers",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -517,7 +460,6 @@
         "repo_name": "containerinstance/Azure.ResourceManager.ContainerInstance",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/containerinstance/Azure.ResourceManager.ContainerInstance",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -526,7 +468,6 @@
         "repo_name": "containerregistry/Azure.Containers.ContainerRegistry",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/containerregistry/Azure.Containers.ContainerRegistry",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -535,7 +476,6 @@
         "repo_name": "containerregistry/Azure.ResourceManager.ContainerRegistry",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/containerregistry/Azure.ResourceManager.ContainerRegistry",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -544,7 +484,6 @@
         "repo_name": "containerservice/Azure.ResourceManager.ContainerService",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/containerservice/Azure.ResourceManager.ContainerService",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -553,7 +492,6 @@
         "repo_name": "contentsafety/Azure.AI.ContentSafety",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/contentsafety/Azure.AI.ContentSafety",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -562,7 +500,6 @@
         "repo_name": "core/Azure.Core.Amqp",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core.Amqp",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -571,7 +508,6 @@
         "repo_name": "core/Azure.Core.Experimental",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core.Experimental",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -580,7 +516,6 @@
         "repo_name": "core/Azure.Core.Expressions.DataFactory",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core.Expressions.DataFactory",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -589,7 +524,6 @@
         "repo_name": "core/Azure.Core.TestFramework",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core.TestFramework",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -598,7 +532,6 @@
         "repo_name": "core/Azure.Core",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -607,7 +540,6 @@
         "repo_name": "core/Microsoft.Azure.Core.NewtonsoftJson",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Microsoft.Azure.Core.NewtonsoftJson",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -616,7 +548,6 @@
         "repo_name": "core/Microsoft.Azure.Core.Spatial.NewtonsoftJson",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Microsoft.Azure.Core.Spatial.NewtonsoftJson",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -625,7 +556,6 @@
         "repo_name": "core/Microsoft.Azure.Core.Spatial",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Microsoft.Azure.Core.Spatial",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -634,7 +564,6 @@
         "repo_name": "core/System.Memory.Data",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/System.Memory.Data",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -643,7 +572,6 @@
         "repo_name": "cosmosdb/Azure.ResourceManager.CosmosDB",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/cosmosdb/Azure.ResourceManager.CosmosDB",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -652,7 +580,6 @@
         "repo_name": "cosmosdbforpostgresql/Azure.ResourceManager.CosmosDBForPostgreSql",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/cosmosdbforpostgresql/Azure.ResourceManager.CosmosDBForPostgreSql",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -661,7 +588,6 @@
         "repo_name": "costmanagement/Azure.ResourceManager.CostManagement",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/costmanagement/Azure.ResourceManager.CostManagement",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -670,7 +596,6 @@
         "repo_name": "customer-insights/Azure.ResourceManager.CustomerInsights",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/customer-insights/Azure.ResourceManager.CustomerInsights",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -679,7 +604,6 @@
         "repo_name": "databox/Azure.ResourceManager.DataBox",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/databox/Azure.ResourceManager.DataBox",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -688,7 +612,6 @@
         "repo_name": "databoxedge/Azure.ResourceManager.DataBoxEdge",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/databoxedge/Azure.ResourceManager.DataBoxEdge",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -697,7 +620,6 @@
         "repo_name": "datadog/Azure.ResourceManager.Datadog",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/datadog/Azure.ResourceManager.Datadog",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -706,7 +628,6 @@
         "repo_name": "datafactory/Azure.ResourceManager.DataFactory",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/datafactory/Azure.ResourceManager.DataFactory",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -715,7 +636,6 @@
         "repo_name": "datalake-analytics/Azure.ResourceManager.DataLakeAnalytics",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/datalake-analytics/Azure.ResourceManager.DataLakeAnalytics",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -724,7 +644,6 @@
         "repo_name": "datalake-store/Azure.ResourceManager.DataLakeStore",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/datalake-store/Azure.ResourceManager.DataLakeStore",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -733,7 +652,6 @@
         "repo_name": "datamigration/Azure.ResourceManager.DataMigration",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/datamigration/Azure.ResourceManager.DataMigration",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -742,7 +660,6 @@
         "repo_name": "dataprotection/Azure.ResourceManager.DataProtectionBackup",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/dataprotection/Azure.ResourceManager.DataProtectionBackup",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -751,7 +668,6 @@
         "repo_name": "datashare/Azure.ResourceManager.DataShare",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/datashare/Azure.ResourceManager.DataShare",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -760,7 +676,6 @@
         "repo_name": "deploymentmanager/Azure.ResourceManager.DeploymentManager",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/deploymentmanager/Azure.ResourceManager.DeploymentManager",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -769,7 +684,6 @@
         "repo_name": "desktopvirtualization/Azure.ResourceManager.DesktopVirtualization",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/desktopvirtualization/Azure.ResourceManager.DesktopVirtualization",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -778,7 +692,6 @@
         "repo_name": "devcenter/Azure.Developer.DevCenter",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/devcenter/Azure.Developer.DevCenter",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -787,7 +700,6 @@
         "repo_name": "devcenter/Azure.ResourceManager.DevCenter",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/devcenter/Azure.ResourceManager.DevCenter",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -796,7 +708,6 @@
         "repo_name": "deviceprovisioningservices/Azure.ResourceManager.DeviceProvisioningServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/deviceprovisioningservices/Azure.ResourceManager.DeviceProvisioningServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -805,7 +716,6 @@
         "repo_name": "deviceupdate/Azure.IoT.DeviceUpdate",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -814,7 +724,6 @@
         "repo_name": "deviceupdate/Azure.ResourceManager.DeviceUpdate",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/deviceupdate/Azure.ResourceManager.DeviceUpdate",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -823,7 +732,6 @@
         "repo_name": "devspaces/Azure.ResourceManager.DevSpaces",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/devspaces/Azure.ResourceManager.DevSpaces",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -832,7 +740,6 @@
         "repo_name": "devtestlabs/Azure.ResourceManager.DevTestLabs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/devtestlabs/Azure.ResourceManager.DevTestLabs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -841,7 +748,6 @@
         "repo_name": "digitaltwins/Azure.DigitalTwins.Core",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/digitaltwins/Azure.DigitalTwins.Core",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -850,7 +756,6 @@
         "repo_name": "digitaltwins/Azure.ResourceManager.DigitalTwins",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/digitaltwins/Azure.ResourceManager.DigitalTwins",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -859,7 +764,6 @@
         "repo_name": "dns/Azure.ResourceManager.Dns",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/dns/Azure.ResourceManager.Dns",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -868,7 +772,6 @@
         "repo_name": "dnsresolver/Azure.ResourceManager.DnsResolver",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/dnsresolver/Azure.ResourceManager.DnsResolver",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -877,7 +780,6 @@
         "repo_name": "dynatrace/Azure.ResourceManager.Dynatrace",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/dynatrace/Azure.ResourceManager.Dynatrace",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -886,7 +788,6 @@
         "repo_name": "edgeorder/Azure.ResourceManager.EdgeOrder",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/edgeorder/Azure.ResourceManager.EdgeOrder",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -895,7 +796,6 @@
         "repo_name": "elastic/Azure.ResourceManager.Elastic",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/elastic/Azure.ResourceManager.Elastic",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -904,7 +804,6 @@
         "repo_name": "elasticsan/Azure.ResourceManager.ElasticSan",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/elasticsan/Azure.ResourceManager.ElasticSan",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -913,7 +812,6 @@
         "repo_name": "entra/Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/entra/Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -922,7 +820,6 @@
         "repo_name": "eventgrid/Azure.Messaging.EventGrid",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventgrid/Azure.Messaging.EventGrid",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -931,7 +828,6 @@
         "repo_name": "eventgrid/Azure.ResourceManager.EventGrid",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventgrid/Azure.ResourceManager.EventGrid",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -940,7 +836,6 @@
         "repo_name": "eventgrid/Microsoft.Azure.Messaging.EventGrid.CloudNativeCloudEvents",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventgrid/Microsoft.Azure.Messaging.EventGrid.CloudNativeCloudEvents",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -949,7 +844,6 @@
         "repo_name": "eventgrid/Microsoft.Azure.WebJobs.Extensions.EventGrid",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventgrid/Microsoft.Azure.WebJobs.Extensions.EventGrid",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -958,7 +852,6 @@
         "repo_name": "eventhub/Azure.Messaging.EventHubs.Experimental",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Azure.Messaging.EventHubs.Experimental",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -967,7 +860,6 @@
         "repo_name": "eventhub/Azure.Messaging.EventHubs.Processor",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -976,7 +868,6 @@
         "repo_name": "eventhub/Azure.Messaging.EventHubs.Shared",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Azure.Messaging.EventHubs.Shared",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -985,7 +876,6 @@
         "repo_name": "eventhub/Azure.Messaging.EventHubs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Azure.Messaging.EventHubs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -994,7 +884,6 @@
         "repo_name": "eventhub/Azure.ResourceManager.EventHubs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Azure.ResourceManager.EventHubs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1003,7 +892,6 @@
         "repo_name": "eventhub/Microsoft.Azure.EventHubs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Microsoft.Azure.EventHubs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1012,7 +900,6 @@
         "repo_name": "eventhub/Microsoft.Azure.WebJobs.Extensions.EventHubs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Microsoft.Azure.WebJobs.Extensions.EventHubs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1021,7 +908,6 @@
         "repo_name": "extendedlocation/Azure.ResourceManager.ExtendedLocations",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/extendedlocation/Azure.ResourceManager.ExtendedLocations",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1030,7 +916,6 @@
         "repo_name": "extensions/Azure.Extensions.AspNetCore.Configuration.Secrets",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/extensions/Azure.Extensions.AspNetCore.Configuration.Secrets",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1039,7 +924,6 @@
         "repo_name": "extensions/Azure.Extensions.AspNetCore.DataProtection.Blobs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/extensions/Azure.Extensions.AspNetCore.DataProtection.Blobs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1048,7 +932,6 @@
         "repo_name": "extensions/Azure.Extensions.AspNetCore.DataProtection.Keys",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/extensions/Azure.Extensions.AspNetCore.DataProtection.Keys",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1057,7 +940,6 @@
         "repo_name": "extensions/Microsoft.Azure.WebJobs.Extensions.Clients",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/extensions/Microsoft.Azure.WebJobs.Extensions.Clients",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1066,7 +948,6 @@
         "repo_name": "extensions/Microsoft.Extensions.Azure",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/extensions/Microsoft.Extensions.Azure",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1075,7 +956,6 @@
         "repo_name": "fluidrelay/Azure.ResourceManager.FluidRelay",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/fluidrelay/Azure.ResourceManager.FluidRelay",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1084,7 +964,6 @@
         "repo_name": "formrecognizer/Azure.AI.FormRecognizer",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/formrecognizer/Azure.AI.FormRecognizer",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1093,7 +972,6 @@
         "repo_name": "frontdoor/Azure.ResourceManager.FrontDoor",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/frontdoor/Azure.ResourceManager.FrontDoor",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1102,7 +980,6 @@
         "repo_name": "grafana/Azure.ResourceManager.Grafana",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/grafana/Azure.ResourceManager.Grafana",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1111,7 +988,6 @@
         "repo_name": "graphservices/Azure.ResourceManager.GraphServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/graphservices/Azure.ResourceManager.GraphServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1120,7 +996,6 @@
         "repo_name": "guestconfiguration/Azure.ResourceManager.GuestConfiguration",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/guestconfiguration/Azure.ResourceManager.GuestConfiguration",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1129,7 +1004,6 @@
         "repo_name": "hdinsight/Azure.ResourceManager.HDInsight",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/hdinsight/Azure.ResourceManager.HDInsight",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1138,7 +1012,6 @@
         "repo_name": "healthbot/Azure.ResourceManager.HealthBot",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/healthbot/Azure.ResourceManager.HealthBot",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1147,7 +1020,6 @@
         "repo_name": "healthcareapis/Azure.ResourceManager.HealthcareApis",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/healthcareapis/Azure.ResourceManager.HealthcareApis",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1156,7 +1028,6 @@
         "repo_name": "healthinsights/Azure.Health.Insights.CancerProfiling",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/healthinsights/Azure.Health.Insights.CancerProfiling",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1165,7 +1036,6 @@
         "repo_name": "healthinsights/Azure.Health.Insights.ClinicalMatching",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/healthinsights/Azure.Health.Insights.ClinicalMatching",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1174,7 +1044,6 @@
         "repo_name": "hybridaks/Azure.ResourceManager.HybridContainerService",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/hybridaks/Azure.ResourceManager.HybridContainerService",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1183,7 +1052,6 @@
         "repo_name": "hybridcompute/Azure.ResourceManager.HybridCompute",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/hybridcompute/Azure.ResourceManager.HybridCompute",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1192,7 +1060,6 @@
         "repo_name": "hybridconnectivity/Azure.ResourceManager.HybridConnectivity",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/hybridconnectivity/Azure.ResourceManager.HybridConnectivity",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1201,7 +1068,6 @@
         "repo_name": "hybriddatamanager/Azure.ResourceManager.HybridData",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/hybriddatamanager/Azure.ResourceManager.HybridData",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1210,7 +1076,6 @@
         "repo_name": "hybridkubernetes/Azure.ResourceManager.Kubernetes",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/hybridkubernetes/Azure.ResourceManager.Kubernetes",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1219,7 +1084,6 @@
         "repo_name": "identity/Azure.Identity.BrokeredAuthentication",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity.BrokeredAuthentication",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1228,7 +1092,6 @@
         "repo_name": "identity/Azure.Identity",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1237,7 +1100,6 @@
         "repo_name": "iot/Azure.IoT.Hub.Service",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/iot/Azure.IoT.Hub.Service",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1246,7 +1108,6 @@
         "repo_name": "iotcentral/Azure.ResourceManager.IotCentral",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/iotcentral/Azure.ResourceManager.IotCentral",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1255,7 +1116,6 @@
         "repo_name": "iothub/Azure.ResourceManager.IotHub",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/iothub/Azure.ResourceManager.IotHub",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1264,7 +1124,6 @@
         "repo_name": "keyvault/Azure.ResourceManager.KeyVault",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/keyvault/Azure.ResourceManager.KeyVault",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1273,7 +1132,6 @@
         "repo_name": "keyvault/Azure.Security.KeyVault.Administration",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/keyvault/Azure.Security.KeyVault.Administration",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1282,7 +1140,6 @@
         "repo_name": "keyvault/Azure.Security.KeyVault.Certificates",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/keyvault/Azure.Security.KeyVault.Certificates",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1291,7 +1148,6 @@
         "repo_name": "keyvault/Azure.Security.KeyVault.Keys",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/keyvault/Azure.Security.KeyVault.Keys",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1300,7 +1156,6 @@
         "repo_name": "keyvault/Azure.Security.KeyVault.Secrets",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/keyvault/Azure.Security.KeyVault.Secrets",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1309,7 +1164,6 @@
         "repo_name": "keyvault/Microsoft.Azure.KeyVault",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/keyvault/Microsoft.Azure.KeyVault",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1318,7 +1172,6 @@
         "repo_name": "kubernetesconfiguration/Azure.ResourceManager.KubernetesConfiguration",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/kubernetesconfiguration/Azure.ResourceManager.KubernetesConfiguration",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1327,7 +1180,6 @@
         "repo_name": "kusto/Azure.ResourceManager.Kusto",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/kusto/Azure.ResourceManager.Kusto",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1336,7 +1188,6 @@
         "repo_name": "labservices/Azure.ResourceManager.LabServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/labservices/Azure.ResourceManager.LabServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1345,7 +1196,6 @@
         "repo_name": "loadtestservice/Azure.Developer.LoadTesting",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/loadtestservice/Azure.Developer.LoadTesting",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1354,7 +1204,6 @@
         "repo_name": "loadtestservice/Azure.ResourceManager.LoadTesting",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/loadtestservice/Azure.ResourceManager.LoadTesting",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1363,7 +1212,6 @@
         "repo_name": "logic/Azure.ResourceManager.Logic",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/logic/Azure.ResourceManager.Logic",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1372,7 +1220,6 @@
         "repo_name": "machinelearningcompute/Azure.ResourceManager.MachineLearningCompute",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/machinelearningcompute/Azure.ResourceManager.MachineLearningCompute",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1381,7 +1228,6 @@
         "repo_name": "machinelearningservices/Azure.ResourceManager.MachineLearning",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/machinelearningservices/Azure.ResourceManager.MachineLearning",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1390,7 +1236,6 @@
         "repo_name": "maintenance/Azure.ResourceManager.Maintenance",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maintenance/Azure.ResourceManager.Maintenance",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1399,7 +1244,6 @@
         "repo_name": "managednetwork/Azure.ResourceManager.ManagedNetwork",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/managednetwork/Azure.ResourceManager.ManagedNetwork",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1408,7 +1252,6 @@
         "repo_name": "managednetworkfabric/Azure.ResourceManager.ManagedNetworkFabric",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/managednetworkfabric/Azure.ResourceManager.ManagedNetworkFabric",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1417,7 +1260,6 @@
         "repo_name": "managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1426,7 +1268,6 @@
         "repo_name": "managedservices/Azure.ResourceManager.ManagedServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/managedservices/Azure.ResourceManager.ManagedServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1435,7 +1276,6 @@
         "repo_name": "managementpartner/Azure.ResourceManager.ManagementPartner",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/managementpartner/Azure.ResourceManager.ManagementPartner",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1444,7 +1284,6 @@
         "repo_name": "maps/Azure.Maps.Common",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Common",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1453,7 +1292,6 @@
         "repo_name": "maps/Azure.Maps.Geolocation",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Geolocation",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1462,7 +1300,6 @@
         "repo_name": "maps/Azure.Maps.Rendering",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Rendering",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1471,7 +1308,6 @@
         "repo_name": "maps/Azure.Maps.Routing",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Routing",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1480,7 +1316,6 @@
         "repo_name": "maps/Azure.Maps.Search",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Search",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1489,7 +1324,6 @@
         "repo_name": "maps/Azure.ResourceManager.Maps",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.ResourceManager.Maps",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1498,7 +1332,6 @@
         "repo_name": "marketplace/Azure.ResourceManager.Marketplace",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/marketplace/Azure.ResourceManager.Marketplace",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1507,7 +1340,6 @@
         "repo_name": "marketplaceordering/Azure.ResourceManager.MarketplaceOrdering",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/marketplaceordering/Azure.ResourceManager.MarketplaceOrdering",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1516,7 +1348,6 @@
         "repo_name": "mediaservices/Azure.ResourceManager.Media",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mediaservices/Azure.ResourceManager.Media",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1525,7 +1356,6 @@
         "repo_name": "metricsadvisor/Azure.AI.MetricsAdvisor",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/metricsadvisor/Azure.AI.MetricsAdvisor",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1534,7 +1364,6 @@
         "repo_name": "mgmtcommon/AppAuthentication",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mgmtcommon/AppAuthentication",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1543,7 +1372,6 @@
         "repo_name": "mgmtcommon/ClientRuntime.Etw",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mgmtcommon/ClientRuntime.Etw",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1552,7 +1380,6 @@
         "repo_name": "mgmtcommon/ClientRuntime.Log4Net",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mgmtcommon/ClientRuntime.Log4Net",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1561,7 +1388,6 @@
         "repo_name": "mixedreality/Azure.MixedReality.Authentication",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mixedreality/Azure.MixedReality.Authentication",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1570,7 +1396,6 @@
         "repo_name": "mixedreality/Azure.ResourceManager.MixedReality",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mixedreality/Azure.ResourceManager.MixedReality",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1579,7 +1404,6 @@
         "repo_name": "mobilenetwork/Azure.ResourceManager.MobileNetwork",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mobilenetwork/Azure.ResourceManager.MobileNetwork",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1588,7 +1412,6 @@
         "repo_name": "modelsrepository/Azure.IoT.ModelsRepository",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/modelsrepository/Azure.IoT.ModelsRepository",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1597,7 +1420,6 @@
         "repo_name": "monitor/Azure.Monitor.Ingestion",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Ingestion",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1606,7 +1428,6 @@
         "repo_name": "monitor/Azure.Monitor.OpenTelemetry.AspNetCore",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.OpenTelemetry.AspNetCore",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1615,7 +1436,6 @@
         "repo_name": "monitor/Azure.Monitor.OpenTelemetry.Exporter",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1624,7 +1444,6 @@
         "repo_name": "monitor/Azure.Monitor.Query",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Query",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1633,7 +1452,6 @@
         "repo_name": "monitor/Azure.ResourceManager.Monitor",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.ResourceManager.Monitor",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1642,7 +1460,6 @@
         "repo_name": "mysql/Azure.ResourceManager.MySql",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/mysql/Azure.ResourceManager.MySql",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1651,7 +1468,6 @@
         "repo_name": "netapp/Azure.ResourceManager.NetApp",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/netapp/Azure.ResourceManager.NetApp",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1660,7 +1476,6 @@
         "repo_name": "network/Azure.ResourceManager.Network",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/network/Azure.ResourceManager.Network",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1669,7 +1484,6 @@
         "repo_name": "networkcloud/Azure.ResourceManager.NetworkCloud",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/networkcloud/Azure.ResourceManager.NetworkCloud",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1678,7 +1492,6 @@
         "repo_name": "networkfunction/Azure.ResourceManager.NetworkFunction",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/networkfunction/Azure.ResourceManager.NetworkFunction",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1687,7 +1500,6 @@
         "repo_name": "newrelicobservability/Azure.ResourceManager.NewRelicObservability",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/newrelicobservability/Azure.ResourceManager.NewRelicObservability",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1696,7 +1508,6 @@
         "repo_name": "nginx/Azure.ResourceManager.Nginx",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/nginx/Azure.ResourceManager.Nginx",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1705,7 +1516,6 @@
         "repo_name": "notificationhubs/Azure.ResourceManager.NotificationHubs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/notificationhubs/Azure.ResourceManager.NotificationHubs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1714,7 +1524,6 @@
         "repo_name": "objectanchors/Azure.MixedReality.ObjectAnchors.Conversion",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/objectanchors/Azure.MixedReality.ObjectAnchors.Conversion",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1723,7 +1532,6 @@
         "repo_name": "openai/Azure.AI.OpenAI",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/openai/Azure.AI.OpenAI",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1732,7 +1540,6 @@
         "repo_name": "openenergyplatform/Azure.ResourceManager.EnergyServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/openenergyplatform/Azure.ResourceManager.EnergyServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1741,7 +1548,6 @@
         "repo_name": "operationalinsights/Azure.ResourceManager.OperationalInsights",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/operationalinsights/Azure.ResourceManager.OperationalInsights",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1750,7 +1556,6 @@
         "repo_name": "orbital/Azure.ResourceManager.Orbital",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/orbital/Azure.ResourceManager.Orbital",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1759,7 +1564,6 @@
         "repo_name": "paloaltonetworks.ngfw/Azure.ResourceManager.PaloAltoNetworks.Ngfw",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/paloaltonetworks.ngfw/Azure.ResourceManager.PaloAltoNetworks.Ngfw",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1768,7 +1572,6 @@
         "repo_name": "peering/Azure.ResourceManager.Peering",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/peering/Azure.ResourceManager.Peering",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1777,7 +1580,6 @@
         "repo_name": "personalizer/Azure.AI.Personalizer",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/personalizer/Azure.AI.Personalizer",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1786,7 +1588,6 @@
         "repo_name": "policyinsights/Azure.ResourceManager.PolicyInsights",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/policyinsights/Azure.ResourceManager.PolicyInsights",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1795,7 +1596,6 @@
         "repo_name": "postgresql/Azure.ResourceManager.PostgreSql",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/postgresql/Azure.ResourceManager.PostgreSql",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1804,7 +1604,6 @@
         "repo_name": "powerbidedicated/Azure.ResourceManager.PowerBIDedicated",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/powerbidedicated/Azure.ResourceManager.PowerBIDedicated",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1813,7 +1612,6 @@
         "repo_name": "privatedns/Azure.ResourceManager.PrivateDns",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/privatedns/Azure.ResourceManager.PrivateDns",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1822,7 +1620,6 @@
         "repo_name": "providerhub/Azure.ResourceManager.ProviderHub",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/providerhub/Azure.ResourceManager.ProviderHub",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1831,7 +1628,6 @@
         "repo_name": "purview/Azure.Analytics.Purview.Account",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.Account",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1840,7 +1636,6 @@
         "repo_name": "purview/Azure.Analytics.Purview.Administration",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.Administration",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1849,7 +1644,6 @@
         "repo_name": "purview/Azure.Analytics.Purview.Catalog",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.Catalog",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1858,7 +1652,6 @@
         "repo_name": "purview/Azure.Analytics.Purview.Scanning",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.Scanning",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1867,7 +1660,6 @@
         "repo_name": "purview/Azure.Analytics.Purview.Share",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.Share",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1876,7 +1668,6 @@
         "repo_name": "purview/Azure.Analytics.Purview.Sharing",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.Sharing",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1885,7 +1676,6 @@
         "repo_name": "purview/Azure.Analytics.Purview.Workflows",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.Workflows",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1894,7 +1684,6 @@
         "repo_name": "purview/Azure.ResourceManager.Purview",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.ResourceManager.Purview",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1903,7 +1692,6 @@
         "repo_name": "quantum/Azure.Quantum.Jobs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/quantum/Azure.Quantum.Jobs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1912,7 +1700,6 @@
         "repo_name": "quantum/Azure.ResourceManager.Quantum",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/quantum/Azure.ResourceManager.Quantum",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1921,7 +1708,6 @@
         "repo_name": "qumulo/Azure.ResourceManager.Qumulo",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/qumulo/Azure.ResourceManager.Qumulo",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1930,7 +1716,6 @@
         "repo_name": "quota/Azure.ResourceManager.Quota",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/quota/Azure.ResourceManager.Quota",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1939,7 +1724,6 @@
         "repo_name": "recoveryservices-backup/Azure.ResourceManager.RecoveryServicesBackup",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/recoveryservices-backup/Azure.ResourceManager.RecoveryServicesBackup",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1948,7 +1732,6 @@
         "repo_name": "recoveryservices-siterecovery/Azure.ResourceManager.RecoveryServicesSiteRecovery",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/recoveryservices-siterecovery/Azure.ResourceManager.RecoveryServicesSiteRecovery",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1957,7 +1740,6 @@
         "repo_name": "recoveryservices/Azure.ResourceManager.RecoveryServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/recoveryservices/Azure.ResourceManager.RecoveryServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1966,7 +1748,6 @@
         "repo_name": "redis/Azure.ResourceManager.Redis",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/redis/Azure.ResourceManager.Redis",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1975,7 +1756,6 @@
         "repo_name": "redisenterprise/Azure.ResourceManager.RedisEnterprise",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/redisenterprise/Azure.ResourceManager.RedisEnterprise",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1984,7 +1764,6 @@
         "repo_name": "relay/Azure.ResourceManager.Relay",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/relay/Azure.ResourceManager.Relay",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -1993,7 +1772,6 @@
         "repo_name": "remoterendering/Azure.MixedReality.RemoteRendering",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/remoterendering/Azure.MixedReality.RemoteRendering",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2002,7 +1780,6 @@
         "repo_name": "reservations/Azure.ResourceManager.Reservations",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/reservations/Azure.ResourceManager.Reservations",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2011,7 +1788,6 @@
         "repo_name": "resourcegraph/Azure.ResourceManager.ResourceGraph",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcegraph/Azure.ResourceManager.ResourceGraph",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2020,7 +1796,6 @@
         "repo_name": "resourcehealth/Azure.ResourceManager.ResourceHealth",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcehealth/Azure.ResourceManager.ResourceHealth",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2029,7 +1804,6 @@
         "repo_name": "resourcemanager/Azure.ResourceManager",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2038,7 +1812,6 @@
         "repo_name": "resourcemover/Azure.ResourceManager.ResourceMover",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemover/Azure.ResourceManager.ResourceMover",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2047,7 +1820,6 @@
         "repo_name": "resources/Azure.ResourceManager.Resources",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resources/Azure.ResourceManager.Resources",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2056,7 +1828,6 @@
         "repo_name": "schemaregistry/Azure.Data.SchemaRegistry",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/schemaregistry/Azure.Data.SchemaRegistry",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2065,7 +1836,6 @@
         "repo_name": "schemaregistry/Microsoft.Azure.Data.SchemaRegistry.ApacheAvro",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/schemaregistry/Microsoft.Azure.Data.SchemaRegistry.ApacheAvro",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2074,7 +1844,6 @@
         "repo_name": "search/Azure.ResourceManager.Search",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/search/Azure.ResourceManager.Search",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2083,7 +1852,6 @@
         "repo_name": "search/Azure.Search.Documents",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/search/Azure.Search.Documents",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2092,7 +1860,6 @@
         "repo_name": "securitycenter/Azure.ResourceManager.SecurityCenter",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/securitycenter/Azure.ResourceManager.SecurityCenter",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2101,7 +1868,6 @@
         "repo_name": "securitydevops/Azure.ResourceManager.SecurityDevOps",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/securitydevops/Azure.ResourceManager.SecurityDevOps",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2110,7 +1876,6 @@
         "repo_name": "securityinsights/Azure.ResourceManager.SecurityInsights",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/securityinsights/Azure.ResourceManager.SecurityInsights",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2119,7 +1884,6 @@
         "repo_name": "selfhelp/Azure.ResourceManager.SelfHelp",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/selfhelp/Azure.ResourceManager.SelfHelp",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2128,7 +1892,6 @@
         "repo_name": "servicebus/Azure.Messaging.ServiceBus",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicebus/Azure.Messaging.ServiceBus",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2137,7 +1900,6 @@
         "repo_name": "servicebus/Azure.ResourceManager.ServiceBus",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicebus/Azure.ResourceManager.ServiceBus",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2146,7 +1908,6 @@
         "repo_name": "servicebus/Microsoft.Azure.ServiceBus",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicebus/Microsoft.Azure.ServiceBus",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2155,7 +1916,6 @@
         "repo_name": "servicebus/Microsoft.Azure.WebJobs.Extensions.ServiceBus",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicebus/Microsoft.Azure.WebJobs.Extensions.ServiceBus",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2164,7 +1924,6 @@
         "repo_name": "servicefabric/Azure.ResourceManager.ServiceFabric",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicefabric/Azure.ResourceManager.ServiceFabric",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2173,7 +1932,6 @@
         "repo_name": "servicefabricmanagedclusters/Azure.ResourceManager.ServiceFabricManagedClusters",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicefabricmanagedclusters/Azure.ResourceManager.ServiceFabricManagedClusters",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2182,7 +1940,6 @@
         "repo_name": "servicelinker/Azure.ResourceManager.ServiceLinker",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicelinker/Azure.ResourceManager.ServiceLinker",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2191,7 +1948,6 @@
         "repo_name": "servicenetworking/Azure.ResourceManager.ServiceNetworking",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicenetworking/Azure.ResourceManager.ServiceNetworking",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2200,7 +1956,6 @@
         "repo_name": "signalr/Azure.ResourceManager.SignalR",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/signalr/Azure.ResourceManager.SignalR",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2209,7 +1964,6 @@
         "repo_name": "signalr/Microsoft.Azure.WebJobs.Extensions.SignalRService",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/signalr/Microsoft.Azure.WebJobs.Extensions.SignalRService",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2218,7 +1972,6 @@
         "repo_name": "sqlmanagement/Azure.ResourceManager.Sql",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/sqlmanagement/Azure.ResourceManager.Sql",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2227,7 +1980,6 @@
         "repo_name": "sqlvirtualmachine/Azure.ResourceManager.SqlVirtualMachine",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/sqlvirtualmachine/Azure.ResourceManager.SqlVirtualMachine",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2236,7 +1988,6 @@
         "repo_name": "storage/Azure.ResourceManager.Storage",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.ResourceManager.Storage",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2245,7 +1996,6 @@
         "repo_name": "storage/Azure.Storage.Blobs.Batch",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Blobs.Batch",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2254,7 +2004,6 @@
         "repo_name": "storage/Azure.Storage.Blobs.ChangeFeed",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Blobs.ChangeFeed",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2263,7 +2012,6 @@
         "repo_name": "storage/Azure.Storage.Blobs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Blobs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2272,7 +2020,6 @@
         "repo_name": "storage/Azure.Storage.Common",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Common",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2281,7 +2028,6 @@
         "repo_name": "storage/Azure.Storage.DataMovement.Blobs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.DataMovement.Blobs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2290,7 +2036,6 @@
         "repo_name": "storage/Azure.Storage.DataMovement",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.DataMovement",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2299,7 +2044,6 @@
         "repo_name": "storage/Azure.Storage.Files.DataLake",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Files.DataLake",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2308,7 +2052,6 @@
         "repo_name": "storage/Azure.Storage.Files.Shares",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Files.Shares",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2317,7 +2060,6 @@
         "repo_name": "storage/Azure.Storage.Internal.Avro",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Internal.Avro",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2326,7 +2068,6 @@
         "repo_name": "storage/Azure.Storage.Queues",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Queues",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2335,7 +2076,6 @@
         "repo_name": "storage/Microsoft.Azure.WebJobs.Extensions.Storage.Blobs",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Microsoft.Azure.WebJobs.Extensions.Storage.Blobs",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2344,7 +2084,6 @@
         "repo_name": "storage/Microsoft.Azure.WebJobs.Extensions.Storage.Common",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Microsoft.Azure.WebJobs.Extensions.Storage.Common",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2353,7 +2092,6 @@
         "repo_name": "storage/Microsoft.Azure.WebJobs.Extensions.Storage.Queues",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Microsoft.Azure.WebJobs.Extensions.Storage.Queues",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2362,7 +2100,6 @@
         "repo_name": "storage/Microsoft.Azure.WebJobs.Extensions.Storage",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Microsoft.Azure.WebJobs.Extensions.Storage",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2371,7 +2108,6 @@
         "repo_name": "storagecache/Azure.ResourceManager.StorageCache",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storagecache/Azure.ResourceManager.StorageCache",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2380,7 +2116,6 @@
         "repo_name": "storagemover/Azure.ResourceManager.StorageMover",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storagemover/Azure.ResourceManager.StorageMover",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2389,7 +2124,6 @@
         "repo_name": "storagepool/Azure.ResourceManager.StoragePool",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storagepool/Azure.ResourceManager.StoragePool",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2398,7 +2132,6 @@
         "repo_name": "storagesync/Azure.ResourceManager.StorageSync",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storagesync/Azure.ResourceManager.StorageSync",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2407,7 +2140,6 @@
         "repo_name": "streamanalytics/Azure.ResourceManager.StreamAnalytics",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/streamanalytics/Azure.ResourceManager.StreamAnalytics",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2416,7 +2148,6 @@
         "repo_name": "subscription/Azure.ResourceManager.Subscription",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/subscription/Azure.ResourceManager.Subscription",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2425,7 +2156,6 @@
         "repo_name": "support/Azure.ResourceManager.Support",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/support/Azure.ResourceManager.Support",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2434,7 +2164,6 @@
         "repo_name": "synapse/Azure.Analytics.Synapse.AccessControl",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/synapse/Azure.Analytics.Synapse.AccessControl",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2443,7 +2172,6 @@
         "repo_name": "synapse/Azure.Analytics.Synapse.Artifacts",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/synapse/Azure.Analytics.Synapse.Artifacts",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2452,7 +2180,6 @@
         "repo_name": "synapse/Azure.Analytics.Synapse.ManagedPrivateEndpoints",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/synapse/Azure.Analytics.Synapse.ManagedPrivateEndpoints",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2461,7 +2188,6 @@
         "repo_name": "synapse/Azure.Analytics.Synapse.Monitoring",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/synapse/Azure.Analytics.Synapse.Monitoring",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2470,7 +2196,6 @@
         "repo_name": "synapse/Azure.Analytics.Synapse.Spark",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/synapse/Azure.Analytics.Synapse.Spark",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2479,7 +2204,6 @@
         "repo_name": "synapse/Azure.ResourceManager.Synapse",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/synapse/Azure.ResourceManager.Synapse",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2488,7 +2212,6 @@
         "repo_name": "synapse/Microsoft.Azure.Synapse",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/synapse/Microsoft.Azure.Synapse",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2497,7 +2220,6 @@
         "repo_name": "tables/Azure.Data.Tables",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/tables/Azure.Data.Tables",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2506,7 +2228,6 @@
         "repo_name": "tables/Microsoft.Azure.WebJobs.Extensions.Tables",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/tables/Microsoft.Azure.WebJobs.Extensions.Tables",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2515,7 +2236,6 @@
         "repo_name": "template/Azure.Template",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/template/Azure.Template",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2524,7 +2244,6 @@
         "repo_name": "textanalytics/Azure.AI.TextAnalytics.Legacy.Shared",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/textanalytics/Azure.AI.TextAnalytics.Legacy.Shared",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2533,7 +2252,6 @@
         "repo_name": "textanalytics/Azure.AI.TextAnalytics",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/textanalytics/Azure.AI.TextAnalytics",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2542,7 +2260,6 @@
         "repo_name": "timeseriesinsights/Azure.IoT.TimeSeriesInsights",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/timeseriesinsights/Azure.IoT.TimeSeriesInsights",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2551,7 +2268,6 @@
         "repo_name": "trafficmanager/Azure.ResourceManager.TrafficManager",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/trafficmanager/Azure.ResourceManager.TrafficManager",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2560,7 +2276,6 @@
         "repo_name": "translation/Azure.AI.Translation.Document",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/translation/Azure.AI.Translation.Document",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2569,7 +2284,6 @@
         "repo_name": "translation/Azure.AI.Translation.Text",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/translation/Azure.AI.Translation.Text",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2578,7 +2292,6 @@
         "repo_name": "videoanalyzer/Azure.Media.VideoAnalyzer.Edge",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/videoanalyzer/Azure.Media.VideoAnalyzer.Edge",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2587,7 +2300,6 @@
         "repo_name": "voiceservices/Azure.ResourceManager.VoiceServices",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/voiceservices/Azure.ResourceManager.VoiceServices",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2596,7 +2308,6 @@
         "repo_name": "webpubsub/Azure.Messaging.WebPubSub.Client",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Azure.Messaging.WebPubSub.Client",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2605,7 +2316,6 @@
         "repo_name": "webpubsub/Azure.Messaging.WebPubSub",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Azure.Messaging.WebPubSub",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2614,7 +2324,6 @@
         "repo_name": "webpubsub/Azure.ResourceManager.WebPubSub",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Azure.ResourceManager.WebPubSub",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2623,7 +2332,6 @@
         "repo_name": "webpubsub/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2632,7 +2340,6 @@
         "repo_name": "webpubsub/Microsoft.Azure.WebJobs.Extensions.WebPubSub",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Microsoft.Azure.WebJobs.Extensions.WebPubSub",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2641,7 +2348,6 @@
         "repo_name": "webpubsub/Microsoft.Azure.WebPubSub.AspNetCore",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Microsoft.Azure.WebPubSub.AspNetCore",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2650,7 +2356,6 @@
         "repo_name": "webpubsub/Microsoft.Azure.WebPubSub.Common",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Microsoft.Azure.WebPubSub.Common",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2659,7 +2364,6 @@
         "repo_name": "websites/Azure.ResourceManager.AppService",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/websites/Azure.ResourceManager.AppService",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2668,7 +2372,6 @@
         "repo_name": "workloadmonitor/Azure.ResourceManager.WorkloadMonitor",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/workloadmonitor/Azure.ResourceManager.WorkloadMonitor",
         "language": [
-            "C#",
             ".NET"
         ]
     },
@@ -2677,7 +2380,6 @@
         "repo_name": "workloads/Azure.ResourceManager.Workloads",
         "link_to_repo": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/workloads/Azure.ResourceManager.Workloads",
         "language": [
-            "C#",
             ".NET"
         ]
     }
