@@ -151,7 +151,7 @@ export const registerSignalREvents = (store: Store) => {
     });
 
     hubConnection.on(SignalRCallbackMethods.ReceiveResponse, (askResult: IAskResult, chatId: string) => {
-        const loggedInUserId: string = store.getState().conversations.loggedInUserId;
+        const loggedInUserId = store.getState().app.activeUserInfo?.id;
         const originalMessageUserId: string | undefined = askResult.variables.find((v) => v.key === 'userId')?.value;
         const isPlanForLoggedInUser = loggedInUserId === originalMessageUserId;
         const messageType = Number(askResult.variables.find((v) => v.key === 'messageType')?.value) as ChatMessageType;
@@ -200,8 +200,8 @@ export const registerSignalREvents = (store: Store) => {
         store.dispatch({ type: 'conversations/updateBotIsTypingFromServer', payload: { chatId, isTyping } });
     });
 
-    hubConnection.on(SignalRCallbackMethods.GlobalDocumentUploaded, (fileName: string, userName: string) => {
-        store.dispatch(addAlert({ message: `${userName} uploaded ${fileName} to all chats`, type: AlertType.Info }));
+    hubConnection.on(SignalRCallbackMethods.GlobalDocumentUploaded, (fileNames: string, userName: string) => {
+        store.dispatch(addAlert({ message: `${userName} uploaded ${fileNames} to all chats`, type: AlertType.Info }));
     });
 
     hubConnection.on(SignalRCallbackMethods.ChatDocumentUploaded, (message: IChatMessage, chatId: string) => {

@@ -10,7 +10,7 @@ import {
     Conversations,
     ConversationsState,
     ConversationTitleChange,
-    initialState,
+    initialState
 } from './ConversationsState';
 
 export const conversationsSlice: Slice<ConversationsState> = createSlice({
@@ -19,9 +19,6 @@ export const conversationsSlice: Slice<ConversationsState> = createSlice({
     reducers: {
         setConversations: (state: ConversationsState, action: PayloadAction<Conversations>) => {
             state.conversations = action.payload;
-        },
-        setLoggedInUserId: (state: ConversationsState, action: PayloadAction<string>) => {
-            state.loggedInUserId = action.payload;
         },
         editConversationTitle: (state: ConversationsState, action: PayloadAction<ConversationTitleChange>) => {
             const id = action.payload.id;
@@ -48,6 +45,10 @@ export const conversationsSlice: Slice<ConversationsState> = createSlice({
         ) => {
             const { user, chatId } = action.payload;
             state.conversations[chatId].users.push(user);
+            state.conversations[chatId].userDataLoaded = false;
+        },
+        setUsersLoaded: (state: ConversationsState, action: PayloadAction<string>) => {
+            state.conversations[action.payload].userDataLoaded = true;
         },
         /*
          * updateConversationFromUser() and updateConversationFromServer() both update the conversations state.
@@ -116,7 +117,6 @@ export const conversationsSlice: Slice<ConversationsState> = createSlice({
 
 export const {
     setConversations,
-    setLoggedInUserId,
     editConversationTitle,
     editConversationInput,
     setSelectedConversation,
@@ -126,6 +126,7 @@ export const {
     updateMessageState,
     updateUserIsTyping,
     updateUserIsTypingFromServer,
+    setUsersLoaded,
 } = conversationsSlice.actions;
 
 export default conversationsSlice.reducer;
